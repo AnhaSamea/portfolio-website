@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom'
 
-const url = 'https://form.jotform.com/223432658706459';
+// const url = 'https://form.jotform.com/223432658706459';
 
 const Header = () => {
 
-	const [contact, setContact] = useState(false);
+	/* const [contact, setContact] = useState(false);
 	// const [data,setData] = useState([]);
 	// console.log(data);
 
@@ -16,7 +16,7 @@ const Header = () => {
 				.then(data => setContact(data))
 		// .then(data=> setData(data))
 		// .then(()=> setContact(false));
-	}, [contact]);
+	}, [contact]); */
 
 
 
@@ -42,9 +42,30 @@ const Header = () => {
 						</svg>
 					</Link>
 				</div>
-				<div className="items-center flex">
+				{/* <div className="items-center flex">
 					<button onClick={() => setContact(true)} className="px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Contact</button>
-				</div>
+				</div> */}
+
+				{/* <div className="items-center flex">
+					<button className="px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Contact</button>
+					<script type="text/javascript" src="https://form.jotform.com/jsform/223432658706459"></script>
+				</div> */}
+
+				<a
+					href="javascript:void(
+        window.open(
+          'https://form.jotform.com/223432658706459',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=700,
+          height=500'
+        )
+      )
+    ">
+					<button className="items-center flex px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Contact</button>
+				</a>
+
 				{/* <button className="p-4 lg:hidden">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6 dark:text-gray-100">
 				<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
