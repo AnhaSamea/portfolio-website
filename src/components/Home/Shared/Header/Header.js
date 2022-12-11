@@ -29,7 +29,7 @@ const Header = () => {
     ">
 					<button className="items-center flex px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Contact</button>
 				</a>
-				<button className="items-center flex px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Blog</button>
+				<Link to='/blog'><button className="items-center flex px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Blog</button></Link>
 				{/* <Link to='https://form.jotform.com/223432658706459'><button className="items-center flex px-8 py-3 font-semibold rounded btn btn-outline btn-secondary">Contact</button></Link> */}
 
 			</div>
