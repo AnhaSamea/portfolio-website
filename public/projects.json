@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Ancient Shot",
         "details": "A full stack project for historical photos. User have to login to see the features.  Used MongoDB to store data. CRUD operations (Create and Read) implemented on this project. User can give reviews about pictures and can see others review.",
-        "gallery": [
+        "descriptions": [
             {
                 "img": "https://i.ibb.co/3NB3p03/immg1.png"
             },
@@ -34,7 +34,7 @@
         "id": 2,
         "title": "iSells.com",
         "details": "This is a full stack project for reselling iPhones. User have to click on categories which they want to buy. Used MongoDB to store data and has Authentication System.",
-        "gallery": [
+        "descriptions": [
             {
                 "img": "https://i.ibb.co/3NB3p03/immg1.png"
             },
@@ -65,7 +65,7 @@
         "id": 3,
         "title": "WDev Quiz",
         "details": "This is an online quiz application page. You can give quiz on a selected topic. If you click on right answer, you will get a correct toast otherwise you will get an incorrect toast. ",
-        "gallery": [
+        "descriptions": [
             {
                 "img": "https://i.ibb.co/3NB3p03/immg1.png"
             },
