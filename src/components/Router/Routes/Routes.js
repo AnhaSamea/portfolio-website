@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../../Layout/Main";
 import Home from '../../Home/Home/Home'
-import Pdf from "../../Pdf/Pdf";
+import Card from "../../Home/Projects/Card";
+
 const router = createBrowserRouter([
     {
         path: '/',
@@ -11,11 +12,12 @@ const router = createBrowserRouter([
                 path: '/',
                 element: <Home></Home>
             },
-            /*             {
-                            path: '/pdf',
-                            element: <Pdf></Pdf>
-                        },
-             */
+            {
+                path: '/projetcs',
+                element: <Card></Card>
+            },
+           
+            
         ]
     }
 ])

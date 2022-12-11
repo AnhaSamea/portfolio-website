@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "title": "Ancient Shot",
+        "details": "A full stack project for historical photos. User have to login to see the features.  Used MongoDB to store data. CRUD operations (Create and Read) implemented on this project. User can give reviews about pictures and can see others review.",
+        "gallery": [
+            {
+                "img": "https://i.ibb.co/3NB3p03/immg1.png"
+            },
+            {
+                "img": "https://i.ibb.co/gjfhh43/img2.png"
+            },
+            {
+                "img": "https://i.ibb.co/tLC9w1t/img3.png"
+            },
+            {
+                "img": "https://i.ibb.co/cT5WJNS/img4.png"
+            },
+            {
+                "img": "https://i.ibb.co/hD03njT/img5.png"
+            },
+            {
+                "img": "https://i.ibb.co/QMkrrsH/img6.png"
+            },
+            {
+                "img": "https://i.ibb.co/nnY82vd/img7.png"
+            },
+            {
+                "img": "https://i.ibb.co/VSjftsq/img8.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "iSells.com",
+        "details": "This is a full stack project for reselling iPhones. User have to click on categories which they want to buy. Used MongoDB to store data and has Authentication System.",
+        "gallery": [
+            {
+                "img": "https://i.ibb.co/3NB3p03/immg1.png"
+            },
+            {
+                "img": "https://i.ibb.co/gjfhh43/img2.png"
+            },
+            {
+                "img": "https://i.ibb.co/tLC9w1t/img3.png"
+            },
+            {
+                "img": "https://i.ibb.co/cT5WJNS/img4.png"
+            },
+            {
+                "img": "https://i.ibb.co/hD03njT/img5.png"
+            },
+            {
+                "img": "https://i.ibb.co/QMkrrsH/img6.png"
+            },
+            {
+                "img": "https://i.ibb.co/nnY82vd/img7.png"
+            },
+            {
+                "img": "https://i.ibb.co/VSjftsq/img8.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "WDev Quiz",
+        "details": "This is an online quiz application page. You can give quiz on a selected topic. If you click on right answer, you will get a correct toast otherwise you will get an incorrect toast. ",
+        "gallery": [
+            {
+                "img": "https://i.ibb.co/3NB3p03/immg1.png"
+            },
+            {
+                "img": "https://i.ibb.co/gjfhh43/img2.png"
+            },
+            {
+                "img": "https://i.ibb.co/tLC9w1t/img3.png"
+            },
+            {
+                "img": "https://i.ibb.co/cT5WJNS/img4.png"
+            },
+            {
+                "img": "https://i.ibb.co/hD03njT/img5.png"
+            },
+            {
+                "img": "https://i.ibb.co/QMkrrsH/img6.png"
+            },
+            {
+                "img": "https://i.ibb.co/nnY82vd/img7.png"
+            },
+            {
+                "img": "https://i.ibb.co/VSjftsq/img8.png"
+            }
+        ]
+    }
+]
