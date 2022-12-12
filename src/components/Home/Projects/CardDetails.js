@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const CardDetails = ({project}) => {
     const {title,details,id} = project;
+    console.log(id);
     return (
         <div className='bg-base-200 p-5 rounded-lg'>
         {/* <img src="https://source.unsplash.com/random/300x300/?1" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" /> */}
